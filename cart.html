@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop.com</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+<div class="container">
+      <div class="headers">
+        <img src="img/shop-electronicsforu.webp" alt="" class="logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html"><p class="pnav">Home</p></a></li>
+                <li><a href="index.html"><p class="pnav">Products</p></a></li>
+                <li><a href=""><p class="pnav">Contact</p></a></li>
+            </ul>
+        </nav>
+        <a href="cart.html" class="cart">
+            <span class="countCart"></span>
+            <img class="imgCart" src="img/cart.png" alt="">
+        </a>
+    </div>
+<p class="titlecart">Yuor cart</p>
+<div class="cartbg">
+    <div class="cartProduct">
+        <!--<div class="card">
+            <div class="center-img">
+                <img src="img/rtx5070.webp" alt="" class="imgCard">
+            </div>
+            <p class="title">RTX 5700 12G</p>
+            <span class="price">288 200 T</span>
+            <div class="counters">
+                <button class="btnMinus">-</button>
+                <input class="inputCount" type="text" value="1">
+                <button class="btnPlus">+</button>
+            </div>
+            <button class="btnDelet">X</button>
+        </div>
+        <div class="card">
+            <div class="center-img">
+                <img src="img/rtx5070.webp" alt="" class="imgCard">
+            </div>
+            <p class="title">RTX 5700 12G</p>
+            <span class="price">288 200 T</span>
+            <div class="counters">
+                <button class="btnMinus">-</button>
+                <input class="inputCount" type="text" value="1">
+                <button class="btnPlus">+</button>
+            </div>
+            <button class="btnDelet">X</button>
+        </div>
+        <div class="card">
+            <div class="center-img">
+                <img src="img/rtx5070.webp" alt="" class="imgCard">
+            </div>
+            <p class="title">RTX 5700 12G</p>
+            <span class="price">288 200 T</span>
+            <div class="counters">
+                <button class="btnMinus">-</button>
+                <input class="inputCount" type="text" value="1">
+                <button class="btnPlus">+</button>
+            </div>
+            <button class="btnDelet">X</button>
+        </div><div class="card">
+            <div class="center-img">
+                <img src="img/rtx5070.webp" alt="" class="imgCard">
+            </div>
+            <p class="title">RTX 5700 12G</p>
+            <span class="price">288 200 T</span>
+            <div class="counters">
+                <button class="btnMinus">-</button>
+                <input class="inputCount" type="text" value="1">
+                <button class="btnPlus">+</button>
+            </div>
+            <button class="btnDelet">X</button>
+        </div>
+        <div id="5" class="card">
+            <div class="center-img">
+                <img src="img/rtx5070.webp" alt="" class="imgCard">
+            </div>
+            <p class="title">RTX 5700 12G</p>
+            <span class="price">288 200 T</span>
+            <div class="counters">
+                <button class="btnMinus">-</button>
+                <input class="inputCount" type="text" value="1">
+                <button class="btnPlus">+</button>
+            </div>
+            <button class="btnDelet">X</button>
+        </div>
+        <div id="5" class="card">
+            <div class="center-img">
+                <img src="img/rtx5070.webp" alt="" class="imgCard">
+            </div>
+            <p class="title">RTX 5700 12G</p>
+            <span class="price">288 200 T</span>
+            <div class="counters">
+                <button class="btnMinus">-</button>
+                <input class="inputCount" type="text" value="1">
+                <button class="btnPlus">+</button>
+            </div>
+            <button class="btnDelet">X</button>
+        </div>
+        <div id="5" class="card">
+            <div class="center-img">
+                <img src="img/rtx5070.webp" alt="" class="imgCard">
+            </div>
+            <p class="title">RTX 5700 12G</p>
+            <span class="price">288 200 T</span>
+            <div class="counters">
+                <button class="btnMinus">-</button>
+                <input class="inputCount" type="text" value="1">
+                <button class="btnPlus">+</button>
+            </div>
+            <button class="btnDelet">X</button>
+        </div>
+        <div id="5" class="card">
+            <div class="center-img">
+                <img src="img/rtx5070.webp" alt="" class="imgCard">
+            </div>
+            <p class="title">RTX 5700 12G</p>
+            <span class="price">288 200 T</span>
+            <div class="counters">
+                <button class="btnMinus">-</button>
+                <input class="inputCount" type="text" value="1">
+                <button class="btnPlus">+</button>
+            </div>
+            <button class="btnDelet">X</button>
+        </div>-->
+    </div>
+</div>
+<div class="totals">
+        <span class="totalText">Total:</span>
+        <span class="totalPrice"></span>
+    </div>
+<div class="box-form">
+    <form action="#" class="forms">
+        <input class="inputText" type="text" name="name" placeholder="Name" id="" required>
+        <input class="inputText" type="text" name="Surname" placeholder="Surname">
+        <input class="inputText" type="email" name="email" placeholder="E-mail" id="">
+        <input class="inputText" type="number" name="number" placeholder="Mobil" id="">
+        <input class="inputBtn" type="button" value="Send">
+    </form>
+<div class="maps">
+    <h1>MAPA</h1>
+</div>
+</div>
+<div class="footer">
+    <img src="img/shop-electronicsforu.webp" alt="" class="logo">
+    <ul class="ulfooter">
+        <li>Home</li>
+        <li>Products</li>
+        <li>Contact</li>
+    </ul>
+    <p>E-Shopelectro.com</p>
+  </div>
+</div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
